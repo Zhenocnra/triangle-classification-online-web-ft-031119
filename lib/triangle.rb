@@ -18,7 +18,7 @@ class Triangle
   end
   
   def impossibru
-      
+    
   end
   
   class TriangleError < StandardError

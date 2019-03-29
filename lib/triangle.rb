@@ -7,7 +7,18 @@ class Triangle
   end
   
   def kind
-    raise
+    if
+      begin
+        raise
+      rescue
+      end
+    else
+    end
+  end
+  
+  class TriangleError < StandardError
+    def message
+      
   end
   
 end

@@ -10,7 +10,7 @@ class Triangle
   def kind
     if side1 == side2 == side3
       :equilateral
-    elsif 
+    elsif side1 
     
     else
     end

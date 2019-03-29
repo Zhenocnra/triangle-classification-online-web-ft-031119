@@ -8,7 +8,7 @@ class Triangle
   end
   
   def kind
-    if 
+    if side1 == side2 
       begin
         raise
       rescue
